@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.card{
+   max-width: 370px;
+   width: 100%;
+   background: rgb(185, 214, 238);
+   border-radius: 24px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:top 24px ;
+    width:auto;
+    height:100px;
+}
+
+.profile img{
+    border: orangered 3px solid;
+    border-radius: 50%;
+    margin-top: 90px;
+    height: 80px;
+    width: 80px;
+}
+
+.text1 , .text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text1{
+    margin-top: 38px;
+}
+
+.text2{
+    padding-top: 8px;
+}
+
+.heading1 h1{
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+
+.heading4 h4{
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+.icons{
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    cursor: pointer;
+    padding-top: 30px;
+
+}
+
+.icons .faceb{
+    color: blue;
+    font-size: 2.5vw;
+}
+
+.icons .tweet{
+    color: black;
+    font-size: 2.5vw;
+}
+
+.icons .insta{
+    color: rgb(235, 8, 167);
+    font-size: 2.5vw;
+}
+
+.icons .linkedin{
+    color: blue;
+    font-size: 2.5vw;
+}
+
+.card .buttons{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 25px;
+}
+
+.buttons .button{
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #2c62f8;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+.buttons .button:hover{
+    background-color: orangered;
+}
+
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    font-weight: 800;
+    font-size: 1.5vw;
+    font-family: 'Poppins';
+}
+
+
+
